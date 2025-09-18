@@ -5,9 +5,9 @@ trigger:
     include:
       - main
 
-pool:
-  vmImage: 'sample_agent'
-
+pool: 
+  name: sample_VM 
+  
 steps:
 
 # - task: TerraformInstaller@0
