@@ -38,3 +38,4 @@ steps:
   inputs:
     targetPath: '$(Build.SourcesDirectory)'
     artifact: 'PowerShellScripts'
+    ArtifactName: 'drop_$(Build.BuildNumber)'
