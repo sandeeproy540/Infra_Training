@@ -7,7 +7,7 @@ trigger:
       - main
 
 pool: 
-  name: sample_VM 
+  name: Azure Pipelines 
   
 steps:
 
